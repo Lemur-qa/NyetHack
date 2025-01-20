@@ -113,7 +113,7 @@ private fun placeOrder(patronName: String,
 private fun displayPatronBalances(patronGold: Map<String, Double>) {
     narrate("$heroName intuitevely knows how much money each patron has")
     patronGold.forEach { (patron, balance) ->
-        narrate("$patron has ${"%.2f".format(balance)} gold")
+        narrate("$patron hййas ${"%.2f".format(balance)} gold")
     }
 }
 /*// Function to generate menu items
