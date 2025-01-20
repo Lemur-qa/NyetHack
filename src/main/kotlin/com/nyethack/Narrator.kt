@@ -1,4 +1,4 @@
-package org.based
+package org.based.com.nyethack
 
 import kotlin.random.Random
 import kotlin.random.nextInt
